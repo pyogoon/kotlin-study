@@ -10,6 +10,6 @@ class Controller {
 
     @GetMapping("/first")
     fun first() : ResponseEntity<String> {
-        return ResponseEntity("First OK!!", HttpStatus.OK)
+        return ResponseEntity("First OK!! \n", HttpStatus.OK)
     }
 }
