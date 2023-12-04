@@ -1,6 +1,11 @@
 FROM openjdk:21
 
+RUN useradd pyo
+RUN id
+
 USER pyo
+RUN id
+
 
 RUN mkdir -p /home/pyo/app
 
