@@ -20,6 +20,11 @@ configurations {
     }
 }
 
+tasks {
+    bootJar {
+        destinationDirectory = file("./target")
+    }
+}
 repositories {
     mavenCentral()
 }
