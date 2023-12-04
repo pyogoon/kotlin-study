@@ -6,7 +6,7 @@ RUN mkdir -p /home/pyo/app
 
 WORKDIR /home/pyo/app
 
-ADD ./build/libs/kotlindev-0.0.1-SNAPSHOT.jar kotlindev.jar
+ADD ./target/kotlindev-0.0.1-SNAPSHOT.jar kotlindev.jar
 
 RUN mkdir logs
 
